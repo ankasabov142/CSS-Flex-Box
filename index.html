@@ -7,6 +7,30 @@
     <link rel="stylesheet" href="/styles/landingStyles.css" />
   </head>
   <body>
-    <h1>Hi!</h1>
+    <nav>
+      <ul class="main-menu">
+        <li>
+          <a href="javascript:;" data-item="section-1">Section 2</a>
+        </li>
+        <li>
+          <a href="javascript:;" data-item="section-2">Section 2</a>
+        </li>
+        <li>
+          <a href="javascript:;" data-item="section-3">Section 2</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section id="section-1">Section 1</section>
+    <section id="section-2">Section 2</section>
+    <section id="section-3">Section 3</section>
+
+    <script>
+      $(function () {
+        $("body").stoockyPage();
+      });
+    </script>
+    <script src="/path/to/cdn/jquery.min.js"></script>
+    <script src="/path/to/jquery.stoocky-page.js"></script>
   </body>
 </html>

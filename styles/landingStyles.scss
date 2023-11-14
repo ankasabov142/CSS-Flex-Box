@@ -4,7 +4,34 @@
     padding: 0;
 }
 
-h1{
-    color: green;
-}
-body{background-color: blue;}
+.header {
+    position: absolute;
+  }
+  
+  .header.header--fixed {
+    position: fixed;
+    top: 0;
+  }
+  
+  .main-menu > li > a.active {
+    color: blue;
+  }
+  
+
+  #section-1{
+    width: 100vw;
+    height: 100vh;
+    background-color: pink;
+  }
+
+  #section-2{
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+  }
+
+  #section-3{
+    width: 100vw;
+    height: 100vh;
+    background-color: pink;
+  }
