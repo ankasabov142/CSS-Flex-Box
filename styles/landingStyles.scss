@@ -1,87 +1,77 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .header {
-    position: absolute;
-  }
-  
-  .header.header--fixed {
-    position: fixed;
-    top: 0;
-  }
-  
-  .main-menu > li > a.active {
-    color: blue;
-  }
-  
-
-  #section-1{
-    width: 100vw;
-    height: 70vh;
-    background-color: pink;
-  }
-
-  #section-2{
-    width: 100vw;
-    height: 70vh;
-    background-color: red;
-  }
-
-  #section-3{
-    width: 100vw;
-    height: 70vh;
-    background-color: pink;
-  }
-
-
-  .header.header--fixed {
-    position: fixed;
-    top: 0;
+  position: absolute;
 }
-.header.header--fixed-bottom {
-    position: fixed;
-    bottom: 0;
+
+.header.header--fixed {
+  position: fixed;
+  top: 0;
 }
+
+.main-menu > li > a.active {
+  color: blue;
+}
+
+#section-1 {
+  width: 100vw;
+  height: 70vh;
+  background-color: pink;
+}
+
+#section-2 {
+  width: 100vw;
+  height: 70vh;
+  background-color: red;
+}
+
+#section-3 {
+  width: 100vw;
+  height: 70vh;
+  background-color: pink;
+}
+
 
 
 .main-menu > li > a:hover,
 .main-menu > li > a.active {
-    color: #560c02;
+  color: #560c02;
 }
 
 .main-menu-holder {
-    background: #fd543f;
-    position: fixed;
+  background: #fd543f;
+  position: fixed;
 }
 .main-menu.mobile {
-    top: 63px;
+  top: 63px;
 }
 .main-menu.mobile li {
-    float: none;
-    padding: 0;
-    list-style: none;
+  float: none;
+  padding: 0;
+  list-style: none;
 }
 .main-menu.mobile li a {
-    display: block;
-    color: #fff;
-    font-size: 16px;
-    line-height: 22px;
-    border-bottom: 1px solid #fff;
-    padding: 1em;
-    transition: all .4s ease-in-out;
+  display: block;
+  color: #fff;
+  font-size: 16px;
+  line-height: 22px;
+  border-bottom: 1px solid #fff;
+  padding: 1em;
+  transition: all 0.4s ease-in-out;
 }
 .main-menu.mobile li a:hover {
-    color: #560c02;
+  color: #560c02;
 }
 .main-menu.mobile li a:active {
-    color: #560c02;
+  color: #560c02;
 }
 .main-menu-holder {
-    width: 180px;
-    height: 100%;
-    top: 0;
-    z-index: 1000;
+  width: 180px;
+  height: 100%;
+  top: 0;
+  z-index: 1000;
 }

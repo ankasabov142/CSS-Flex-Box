@@ -35,16 +35,6 @@
   background-color: pink;
 }
 
-.header.header--fixed {
-  position: fixed;
-  top: 0;
-}
-
-.header.header--fixed-bottom {
-  position: fixed;
-  bottom: 0;
-}
-
 .main-menu > li > a:hover,
 .main-menu > li > a.active {
   color: #560c02;
