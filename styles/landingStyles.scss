@@ -35,7 +35,12 @@
   background-color: pink;
 }
 
-
+.main-menu{
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
 
 .main-menu > li > a:hover,
 .main-menu > li > a.active {
@@ -43,35 +48,10 @@
 }
 
 .main-menu-holder {
-  background: #fd543f;
-  position: fixed;
-}
-.main-menu.mobile {
-  top: 63px;
-}
-.main-menu.mobile li {
-  float: none;
-  padding: 0;
-  list-style: none;
-}
-.main-menu.mobile li a {
-  display: block;
-  color: #fff;
-  font-size: 16px;
-  line-height: 22px;
-  border-bottom: 1px solid #fff;
-  padding: 1em;
-  transition: all 0.4s ease-in-out;
-}
-.main-menu.mobile li a:hover {
-  color: #560c02;
-}
-.main-menu.mobile li a:active {
-  color: #560c02;
-}
-.main-menu-holder {
-  width: 180px;
-  height: 100%;
+  height: 80px;
+  width: 100%;
   top: 0;
   z-index: 1000;
+  background: #fd543f;
+  position: fixed;
 }

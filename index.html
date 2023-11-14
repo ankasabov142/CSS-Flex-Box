@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/styles/landingStyles.css" />
   </head>
   <body>
-    <nav>
+    <nav class="main-menu-holder">
       <ul class="main-menu header--fixed header">
         <li>
           <a href="javascript:;" data-item="section-1">Section 2</a>
@@ -24,30 +24,15 @@
     <section id="section-2">Section 2</section>
     <section id="section-3">Section 3</section>
 
-    
-
-
-    <!-- script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script src="/js/jquery.stoocky-page.js"></script>
-    <script src="assets/js/classie.js"></script>
-    <script src="assets/js/script.js"></script> -->
 
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="resources/js/jquery.stoocky-page.js"></script>
     <script src="resources/js/classie.js"></script>
     <script src="resources/js/script.js"></script>
-
-
     <script type="text/javascript">
-
-        /*
-         * Plugins Initialisation
-         */
+        //  * Plugins Initialisation
         $('body').stoockyPage();
-
-        /*
-         * Plugins initialisation in case you want to change the default settings
-         */
+        //  * Plugins initialisation in case you want to change the default settings
         $('body').stoockyPage({
             stickyElem   : {
                 active            : true,
@@ -66,12 +51,7 @@
                 classToHighlight  : 'active'
             }
         });
-
     </script>
-
-
-
-
 
   </body>
 </html>
