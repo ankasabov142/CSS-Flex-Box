@@ -32,7 +32,7 @@
   );
   .homeHeading {
     position: absolute;
-    top: 16%;
+    top: 14%;
     right: 5%;
     h1 {
       background: rgb(227, 8, 104);
@@ -60,26 +60,27 @@
     }
   }
 }
-.section-2Heading{
+.section-2Heading {
   position: absolute;
-  top: 35%;
+  top: 42%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   font-family: "Agbalumo", sans-serif;
   background: rgb(227, 8, 104);
-      background: linear-gradient(
-        90deg,
-        rgba(227, 8, 104, 1) 0%,
-        rgba(99, 12, 126, 1) 37%,
-        rgba(11, 94, 192, 1) 94%
-      );
-      -webkit-background-clip: text;
-      -moz-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      -moz-text-fill-color: transparent;
-      font-size: 50px;
+  background: linear-gradient(
+    90deg,
+    rgba(227, 8, 104, 1) 0%,
+    rgba(99, 12, 126, 1) 37%,
+    rgba(11, 94, 192, 1) 94%
+  );
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-size: 50px;
 }
 #section-2 {
+  padding-top: 200px;
   width: 100vw;
   height: 100vh;
   background: rgb(237, 199, 201);
@@ -96,11 +97,19 @@
   .donutCardChoco {
     display: flex;
     flex-direction: column;
-    gap: 20px;
     align-items: center;
     img {
       width: 450px;
       height: 450px;
+    }
+    h2 {
+      font-family: "Agbalumo", sans-serif;
+      font-weight: bold;
+      font-size: 32px;
+    }
+    p {
+      font-family: "Agbalumo", sans-serif;
+font-size: 22px;
     }
   }
   .donutCardVanilla {

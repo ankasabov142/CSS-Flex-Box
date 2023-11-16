@@ -27,7 +27,7 @@
 }
 #section-1 .homeHeading {
   position: absolute;
-  top: 16%;
+  top: 14%;
   right: 5%;
   font-weight: bold;
   font-size: 80px;
@@ -52,7 +52,7 @@
 
 .section-2Heading {
   position: absolute;
-  top: 35%;
+  top: 42%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: "Agbalumo", sans-serif;
@@ -66,6 +66,7 @@
 }
 
 #section-2 {
+  padding-top: 200px;
   width: 100vw;
   height: 100vh;
   background: rgb(237, 199, 201);
@@ -76,12 +77,20 @@
 #section-2 .donutCardChoco {
   display: flex;
   flex-direction: column;
-  gap: 20px;
   align-items: center;
 }
 #section-2 .donutCardChoco img {
   width: 450px;
   height: 450px;
+}
+#section-2 .donutCardChoco h2 {
+  font-family: "Agbalumo", sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+}
+#section-2 .donutCardChoco p {
+  font-family: "Agbalumo", sans-serif;
+  font-size: 22px;
 }
 #section-2 .donutCardVanilla {
   display: flex;
