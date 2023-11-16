@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="/styles/landingStyles.css" />
   </head>
   <body class="cbp-spmenu-push">
-    <nav class="main-menu-holder cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right">
-      <ul class="main-menu header--fixed header  ">
+    <nav
+      class="main-menu-holder cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right"
+    >
+      <ul class="main-menu header--fixed header">
         <li>
           <a href="javascript:;" data-item="section-1">Section 2</a>
         </li>
@@ -24,34 +26,32 @@
     <section id="section-2">Section 2</section>
     <section id="section-3">Section 3</section>
 
-
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="resources/js/jquery.stoocky-page.js"></script>
     <script src="resources/js/classie.js"></script>
     <script src="resources/js/script.js"></script>
     <script type="text/javascript">
-        //  * Plugins Initialisation
-        $('body').stoockyPage();
-        //  * Plugins initialisation in case you want to change the default settings
-        $('body').stoockyPage({
-            stickyElem   : {
-                active            : true,
-                elToFix           : 'header',
-                classToFix        : 'header--fixed'
-            },
-            scrollToElem    : {
-                active            : true,
-                item              : '.main-menu > li > a',
-                animDuration      : 800,
-            },
-            itemHighlighter : {
-                active            : true,
-                item              : '.main-menu > li > a',
-                lastItem          : '.main-menu > li:last-child > a',
-                classToHighlight  : 'active'
-            }
-        });
+      //  * Plugins Initialisation
+      $("body").stoockyPage();
+      //  * Plugins initialisation in case you want to change the default settings
+      $("body").stoockyPage({
+        stickyElem: {
+          active: true,
+          elToFix: "header",
+          classToFix: "header--fixed",
+        },
+        scrollToElem: {
+          active: true,
+          item: ".main-menu > li > a",
+          animDuration: 800,
+        },
+        itemHighlighter: {
+          active: true,
+          item: ".main-menu > li > a",
+          lastItem: ".main-menu > li:last-child > a",
+          classToHighlight: "active",
+        },
+      });
     </script>
-
   </body>
 </html>

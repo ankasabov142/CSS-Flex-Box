@@ -55,10 +55,12 @@
   background: #fd543f;
   position: fixed;
 }
+
 .cbp-spmenu-right.cbp-spmenu-open {
   right: 0px;
   box-shadow: -1px 0px 4px #464646;
 }
+
 .cbp-spmenu-push {
   overflow-x: hidden;
   position: relative;
@@ -68,6 +70,7 @@
 .cbp-spmenu-push-toleft {
   left: -180px;
 }
+
 .cbp-spmenu,
 .cbp-spmenu-push {
   -webkit-transition: all 0.3s ease;
