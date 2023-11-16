@@ -55,12 +55,45 @@
   height: 100vh;
   background: rgb(237, 199, 201);
   background: linear-gradient(90deg, rgb(237, 199, 201) 0%, rgb(237, 193, 197) 5%, rgb(237, 190, 196) 31%, rgb(210, 146, 173) 82%, rgb(242, 87, 143) 98%);
+  display: flex;
+  justify-content: space-between;
+}
+#section-2 .donutCardChoco {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+#section-2 .donutCardChoco img {
+  width: 450px;
+  height: 450px;
+}
+#section-2 .donutCardVanilla {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+#section-2 .donutCardVanilla img {
+  width: 400px;
+  height: 400px;
+}
+#section-2 .donutCardSweet {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+#section-2 .donutCardSweet img {
+  width: 400px;
+  height: 400px;
 }
 
 #section-3 {
   width: 100vw;
   height: 70vh;
-  background-color: pink;
+  background: rgb(237, 199, 201);
+  background: linear-gradient(90deg, rgb(237, 199, 201) 0%, rgb(237, 193, 197) 5%, rgb(237, 190, 196) 31%, rgb(210, 146, 173) 82%, rgb(242, 87, 143) 98%);
 }
 
 .main-menu {

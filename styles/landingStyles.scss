@@ -21,8 +21,15 @@
   display: flex;
   width: 100vw;
   height: 100vh;
-  background: rgb(237,199,201);
-background: linear-gradient(90deg, rgba(237,199,201,1) 0%, rgba(237,193,197,1) 5%, rgba(237,190,196,1) 31%, rgba(210,146,173,1) 82%, rgba(242,87,143,1) 98%);
+  background: rgb(237, 199, 201);
+  background: linear-gradient(
+    90deg,
+    rgba(237, 199, 201, 1) 0%,
+    rgba(237, 193, 197, 1) 5%,
+    rgba(237, 190, 196, 1) 31%,
+    rgba(210, 146, 173, 1) 82%,
+    rgba(242, 87, 143, 1) 98%
+  );
   .homeHeading {
     position: absolute;
     top: 16%;
@@ -57,14 +64,61 @@ background: linear-gradient(90deg, rgba(237,199,201,1) 0%, rgba(237,193,197,1) 5
 #section-2 {
   width: 100vw;
   height: 100vh;
-  background: rgb(237,199,201);
-  background: linear-gradient(90deg, rgba(237,199,201,1) 0%, rgba(237,193,197,1) 5%, rgba(237,190,196,1) 31%, rgba(210,146,173,1) 82%, rgba(242,87,143,1) 98%);
+  background: rgb(237, 199, 201);
+  background: linear-gradient(
+    90deg,
+    rgba(237, 199, 201, 1) 0%,
+    rgba(237, 193, 197, 1) 5%,
+    rgba(237, 190, 196, 1) 31%,
+    rgba(210, 146, 173, 1) 82%,
+    rgba(242, 87, 143, 1) 98%
+  );
+  display: flex;
+  justify-content: space-between;
+  .donutCardChoco {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    img {
+      width: 450px;
+      height: 450px;
+    }
+  }
+  .donutCardVanilla {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    img {
+      width: 400px;
+      height: 400px;
+    }
+  }
+  .donutCardSweet {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    img {
+      width: 400px;
+      height: 400px;
+    }
+  }
 }
 
 #section-3 {
   width: 100vw;
   height: 70vh;
-  background-color: pink;
+  background: rgb(237, 199, 201);
+  background: linear-gradient(
+    90deg,
+    rgba(237, 199, 201, 1) 0%,
+    rgba(237, 193, 197, 1) 5%,
+    rgba(237, 190, 196, 1) 31%,
+    rgba(210, 146, 173, 1) 82%,
+    rgba(242, 87, 143, 1) 98%
+  );
 }
 
 .main-menu {
@@ -95,8 +149,15 @@ background: linear-gradient(90deg, rgba(237,199,201,1) 0%, rgba(237,193,197,1) 5
   width: 100%;
   top: 0;
   z-index: 1000;
-  background: rgb(237,199,201);
-background: linear-gradient(90deg, rgba(237,199,201,1) 0%, rgba(237,193,197,1) 5%, rgba(237,190,196,1) 31%, rgba(210,146,173,1) 82%, rgba(242,87,143,1) 98%);
+  background: rgb(237, 199, 201);
+  background: linear-gradient(
+    90deg,
+    rgba(237, 199, 201, 1) 0%,
+    rgba(237, 193, 197, 1) 5%,
+    rgba(237, 190, 196, 1) 31%,
+    rgba(210, 146, 173, 1) 82%,
+    rgba(242, 87, 143, 1) 98%
+  );
   position: fixed;
 }
 
