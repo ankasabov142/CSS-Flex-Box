@@ -22,8 +22,8 @@
   display: flex;
   width: 100vw;
   height: 100vh;
-  background-image: url("/resources/Background-Section1.png");
-  background-size: cover;
+  background: rgb(237, 199, 201);
+  background: linear-gradient(90deg, rgb(237, 199, 201) 0%, rgb(237, 193, 197) 5%, rgb(237, 190, 196) 31%, rgb(210, 146, 173) 82%, rgb(242, 87, 143) 98%);
 }
 #section-1 .homeHeading {
   position: absolute;
@@ -52,8 +52,9 @@
 
 #section-2 {
   width: 100vw;
-  height: 70vh;
-  background-color: red;
+  height: 100vh;
+  background: rgb(237, 199, 201);
+  background: linear-gradient(90deg, rgb(237, 199, 201) 0%, rgb(237, 193, 197) 5%, rgb(237, 190, 196) 31%, rgb(210, 146, 173) 82%, rgb(242, 87, 143) 98%);
 }
 
 #section-3 {
@@ -90,8 +91,8 @@
   width: 100%;
   top: 0;
   z-index: 1000;
-  background: rgb(241, 205, 207);
-  background: linear-gradient(90deg, rgb(241, 205, 207) 0%, rgb(210, 146, 173) 100%);
+  background: rgb(237, 199, 201);
+  background: linear-gradient(90deg, rgb(237, 199, 201) 0%, rgb(237, 193, 197) 5%, rgb(237, 190, 196) 31%, rgb(210, 146, 173) 82%, rgb(242, 87, 143) 98%);
   position: fixed;
 }
 
