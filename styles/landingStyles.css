@@ -50,6 +50,21 @@
   height: 500px;
 }
 
+.section-2Heading {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Agbalumo", sans-serif;
+  background: rgb(227, 8, 104);
+  background: linear-gradient(90deg, rgb(227, 8, 104) 0%, rgb(99, 12, 126) 37%, rgb(11, 94, 192) 94%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-size: 50px;
+}
+
 #section-2 {
   width: 100vw;
   height: 100vh;
