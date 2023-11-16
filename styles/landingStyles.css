@@ -1,3 +1,4 @@
+@import url("https://fonts.cdnfonts.com/css/agbalumo");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -18,10 +19,35 @@
 }
 
 #section-1 {
+  display: flex;
   width: 100vw;
   height: 100vh;
   background-image: url("/resources/Background-Section1.png");
   background-size: cover;
+}
+#section-1 .homeHeading {
+  position: absolute;
+  top: 16%;
+  right: 5%;
+  font-weight: bold;
+  font-size: 80px;
+  font-family: "Agbalumo", sans-serif;
+}
+#section-1 .homeHeading h1 {
+  background: rgb(227, 8, 104);
+  background: linear-gradient(90deg, rgb(227, 8, 104) 0%, rgb(99, 12, 126) 37%, rgb(11, 94, 192) 94%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+#section-1 .donutsHome {
+  padding-top: 150px;
+  padding-left: 100px;
+}
+#section-1 .donutsHome img {
+  width: 900px;
+  height: 500px;
 }
 
 #section-2 {
@@ -44,9 +70,14 @@
   padding-top: 15px;
   right: 10%;
   bottom: 0%;
+  list-style-type: none;
 }
 .main-menu li {
+  text-decoration: none;
+  font-weight: bold;
+  color: #464646;
   font-size: 30px;
+  font-family: "Agbalumo", sans-serif;
 }
 
 .main-menu > li > a:hover,
@@ -60,7 +91,7 @@
   top: 0;
   z-index: 1000;
   background: rgb(233, 171, 186);
-  position: sticky;
+  position: fixed;
 }
 
 .cbp-spmenu-right.cbp-spmenu-open {
