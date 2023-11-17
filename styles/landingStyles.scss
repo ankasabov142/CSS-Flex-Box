@@ -3,6 +3,17 @@
   margin: 0;
   padding: 0;
 }
+body{
+  background: rgb(237, 199, 201);
+  background: linear-gradient(
+    90deg,
+    rgba(237, 199, 201, 1) 0%,
+    rgba(237, 193, 197, 1) 5%,
+    rgba(237, 190, 196, 1) 31%,
+    rgba(210, 146, 173, 1) 82%,
+    rgba(242, 87, 143, 1) 98%
+  );
+}
 @import url("https://fonts.cdnfonts.com/css/agbalumo");
 .header {
   position: absolute;
@@ -21,18 +32,9 @@
   display: flex;
   width: 100vw;
   height: 100vh;
-  background: rgb(237, 199, 201);
-  background: linear-gradient(
-    90deg,
-    rgba(237, 199, 201, 1) 0%,
-    rgba(237, 193, 197, 1) 5%,
-    rgba(237, 190, 196, 1) 31%,
-    rgba(210, 146, 173, 1) 82%,
-    rgba(242, 87, 143, 1) 98%
-  );
   .homeHeading {
     position: absolute;
-    top: 14%;
+    top: 9%;
     right: 5%;
     h1 {
       background: rgb(227, 8, 104);
@@ -62,7 +64,7 @@
 }
 .section-2Heading {
   position: absolute;
-  top: 36%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: "Agbalumo", sans-serif;
@@ -83,15 +85,6 @@
   padding-top: 200px;
   width: 100vw;
   height: 100vh;
-  background: rgb(237, 199, 201);
-  background: linear-gradient(
-    90deg,
-    rgba(237, 199, 201, 1) 0%,
-    rgba(237, 193, 197, 1) 5%,
-    rgba(237, 190, 196, 1) 31%,
-    rgba(210, 146, 173, 1) 82%,
-    rgba(242, 87, 143, 1) 98%
-  );
   display: flex;
   justify-content: space-between;
   .donutCardChoco {
@@ -206,18 +199,10 @@
   display: flex;
   justify-content: space-between;
   position: relative;
-  background: rgb(237, 199, 201);
-  background: linear-gradient(
-    90deg,
-    rgba(237, 199, 201, 1) 0%,
-    rgba(237, 193, 197, 1) 5%,
-    rgba(237, 190, 196, 1) 31%,
-    rgba(210, 146, 173, 1) 82%,
-    rgba(242, 87, 143, 1) 98%
-  );
+  
   .section-3Heading {
     position: absolute;
-    top: 13%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: "Agbalumo", sans-serif;
@@ -263,19 +248,38 @@
   }
 }
 #section-4 {
+  margin-top:150px ;
   width: 100vw;
   height: 40vh;
-  padding-top: 200px;
   display: flex;
-  background: rgb(237, 199, 201);
-  background: linear-gradient(
-    90deg,
-    rgba(237, 199, 201, 1) 0%,
-    rgba(237, 193, 197, 1) 5%,
-    rgba(237, 190, 196, 1) 31%,
-    rgba(210, 146, 173, 1) 82%,
-    rgba(242, 87, 143, 1) 98%
-  );
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  .section-4Heading {
+    position: absolute;
+    top: -26%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Agbalumo", sans-serif;
+    background: rgb(227, 8, 104);
+    background: linear-gradient(
+      90deg,
+      rgba(227, 8, 104, 1) 0%,
+      rgba(99, 12, 126, 1) 37%,
+      rgba(11, 94, 192, 1) 94%
+    );
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-size: 50px;
+  }
+  img{
+    width: 200px;
+    height: 200px;
+  }
+  
 }
 .main-menu {
   display: flex;

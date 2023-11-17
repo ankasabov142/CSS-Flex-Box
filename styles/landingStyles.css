@@ -5,6 +5,11 @@
   padding: 0;
 }
 
+body {
+  background: rgb(237, 199, 201);
+  background: linear-gradient(90deg, rgb(237, 199, 201) 0%, rgb(237, 193, 197) 5%, rgb(237, 190, 196) 31%, rgb(210, 146, 173) 82%, rgb(242, 87, 143) 98%);
+}
+
 .header {
   position: absolute;
 }
@@ -22,12 +27,10 @@
   display: flex;
   width: 100vw;
   height: 100vh;
-  background: rgb(237, 199, 201);
-  background: linear-gradient(90deg, rgb(237, 199, 201) 0%, rgb(237, 193, 197) 5%, rgb(237, 190, 196) 31%, rgb(210, 146, 173) 82%, rgb(242, 87, 143) 98%);
 }
 #section-1 .homeHeading {
   position: absolute;
-  top: 14%;
+  top: 9%;
   right: 5%;
   font-weight: bold;
   font-size: 80px;
@@ -52,7 +55,7 @@
 
 .section-2Heading {
   position: absolute;
-  top: 36%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: "Agbalumo", sans-serif;
@@ -69,8 +72,6 @@
   padding-top: 200px;
   width: 100vw;
   height: 100vh;
-  background: rgb(237, 199, 201);
-  background: linear-gradient(90deg, rgb(237, 199, 201) 0%, rgb(237, 193, 197) 5%, rgb(237, 190, 196) 31%, rgb(210, 146, 173) 82%, rgb(242, 87, 143) 98%);
   display: flex;
   justify-content: space-between;
 }
@@ -166,12 +167,10 @@
   display: flex;
   justify-content: space-between;
   position: relative;
-  background: rgb(237, 199, 201);
-  background: linear-gradient(90deg, rgb(237, 199, 201) 0%, rgb(237, 193, 197) 5%, rgb(237, 190, 196) 31%, rgb(210, 146, 173) 82%, rgb(242, 87, 143) 98%);
 }
 #section-3 .section-3Heading {
   position: absolute;
-  top: 13%;
+  top: 15%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: "Agbalumo", sans-serif;
@@ -206,12 +205,32 @@
 }
 
 #section-4 {
+  margin-top: 150px;
   width: 100vw;
   height: 40vh;
-  padding-top: 200px;
   display: flex;
-  background: rgb(237, 199, 201);
-  background: linear-gradient(90deg, rgb(237, 199, 201) 0%, rgb(237, 193, 197) 5%, rgb(237, 190, 196) 31%, rgb(210, 146, 173) 82%, rgb(242, 87, 143) 98%);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+#section-4 .section-4Heading {
+  position: absolute;
+  top: -26%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Agbalumo", sans-serif;
+  background: rgb(227, 8, 104);
+  background: linear-gradient(90deg, rgb(227, 8, 104) 0%, rgb(99, 12, 126) 37%, rgb(11, 94, 192) 94%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-size: 50px;
+}
+#section-4 img {
+  width: 200px;
+  height: 200px;
 }
 
 .main-menu {
