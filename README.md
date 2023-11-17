@@ -9,6 +9,7 @@ The descriptions and details about our delectable treats are powered by OpenAI's
 
 Smooth Scrolling:
 Experience effortless navigation through our website, thanks to the implementation of jQuery plugins for smooth scrolling. Explore our menu and offerings with ease, enhancing your browsing experience.
+
 Technologies Used:
     HTML: Structuring the content and layout of the website.
     CSS: Styling to create an engaging and visually appealing interface.
