@@ -62,7 +62,7 @@
 }
 .section-2Heading {
   position: absolute;
-  top: 42%;
+  top: 36%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: "Agbalumo", sans-serif;
@@ -123,17 +123,9 @@
       font-size: 22px;
       position: absolute;
       top: 80%;
-      color: #42275a; 
-      color: -webkit-linear-gradient(
-        to right,
-        #734b6d,
-        #42275a
-      ); 
-      color: linear-gradient(
-        to right,
-        #734b6d,
-        #42275a
-      );
+      color: #42275a;
+      color: -webkit-linear-gradient(to right, #734b6d, #42275a);
+      color: linear-gradient(to right, #734b6d, #42275a);
     }
   }
   .donutCardVanilla {
@@ -166,17 +158,9 @@
       font-size: 22px;
       position: absolute;
       top: 80%;
-      color: #42275a; 
-      color: -webkit-linear-gradient(
-        to right,
-        #734b6d,
-        #42275a
-      ); 
-      color: linear-gradient(
-        to right,
-        #734b6d,
-        #42275a
-      );
+      color: #42275a;
+      color: -webkit-linear-gradient(to right, #734b6d, #42275a);
+      color: linear-gradient(to right, #734b6d, #42275a);
     }
   }
   .donutCardSweet {
@@ -208,24 +192,20 @@
       font-size: 22px;
       position: absolute;
       top: 80%;
-      color: #42275a; 
-      color: -webkit-linear-gradient(
-        to right,
-        #734b6d,
-        #42275a
-      ); 
-      color: linear-gradient(
-        to right,
-        #734b6d,
-        #42275a
-      );
+      color: #42275a;
+      color: -webkit-linear-gradient(to right, #734b6d, #42275a);
+      color: linear-gradient(to right, #734b6d, #42275a);
     }
   }
 }
 
 #section-3 {
   width: 100vw;
-  height: 70vh;
+  height: 120vh;
+  padding-top: 200px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
   background: rgb(237, 199, 201);
   background: linear-gradient(
     90deg,
@@ -235,6 +215,45 @@
     rgba(210, 146, 173, 1) 82%,
     rgba(242, 87, 143, 1) 98%
   );
+  .section-3Heading {
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Agbalumo", sans-serif;
+    background: rgb(227, 8, 104);
+    background: linear-gradient(
+      90deg,
+      rgba(227, 8, 104, 1) 0%,
+      rgba(99, 12, 126, 1) 37%,
+      rgba(11, 94, 192, 1) 94%
+    );
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-size: 50px;
+  }
+  .storyParagraph {
+    order: 1;
+    width: 500px;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Agbalumo", sans-serif;
+  }
+  .storyPicture {
+    order: 2;
+    position: absolute;
+    right: 5%;
+
+    img {
+      width: 600px;
+      height: 600px;
+    }
+  }
 }
 
 .main-menu {
