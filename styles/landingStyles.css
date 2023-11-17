@@ -205,6 +205,15 @@
   height: 600px;
 }
 
+#section-4 {
+  width: 100vw;
+  height: 40vh;
+  padding-top: 200px;
+  display: flex;
+  background: rgb(237, 199, 201);
+  background: linear-gradient(90deg, rgb(237, 199, 201) 0%, rgb(237, 193, 197) 5%, rgb(237, 190, 196) 31%, rgb(210, 146, 173) 82%, rgb(242, 87, 143) 98%);
+}
+
 .main-menu {
   display: flex;
   justify-content: space-between;

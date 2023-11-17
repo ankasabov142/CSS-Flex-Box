@@ -244,12 +244,12 @@
     font-size: 20px;
     font-family: "Agbalumo", sans-serif;
     color: rgb(227, 8, 104);
-      color: linear-gradient(
-        90deg,
-        rgba(227, 8, 104, 1) 0%,
-        rgba(99, 12, 126, 1) 37%,
-        rgba(11, 94, 192, 1) 94%
-      );
+    color: linear-gradient(
+      90deg,
+      rgba(227, 8, 104, 1) 0%,
+      rgba(99, 12, 126, 1) 37%,
+      rgba(11, 94, 192, 1) 94%
+    );
   }
   .storyPicture {
     order: 2;
@@ -262,7 +262,21 @@
     }
   }
 }
-
+#section-4 {
+  width: 100vw;
+  height: 40vh;
+  padding-top: 200px;
+  display: flex;
+  background: rgb(237, 199, 201);
+  background: linear-gradient(
+    90deg,
+    rgba(237, 199, 201, 1) 0%,
+    rgba(237, 193, 197, 1) 5%,
+    rgba(237, 190, 196, 1) 31%,
+    rgba(210, 146, 173, 1) 82%,
+    rgba(242, 87, 143, 1) 98%
+  );
+}
 .main-menu {
   display: flex;
   justify-content: space-between;
