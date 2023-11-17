@@ -17,10 +17,3 @@ Technologies Used:
     Bing AI: Generating visually stunning images for our donut collection.
     OpenAI's Chat: Crafting engaging and descriptive text content for the donut descriptions.
 
-How to Use:
-
-To explore our delicious donut collection:
-
-    Navigate Through the Menu: Use the smooth scrolling feature to effortlessly browse through the different sections of our website.
-    Discover Donuts: Click on the images or descriptions to learn more about each donut's flavors, ingredients, and special features.
-    Place an Order: Follow the prompts to select your favorite donuts and complete your order.
