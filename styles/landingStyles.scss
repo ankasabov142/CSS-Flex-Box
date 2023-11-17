@@ -98,6 +98,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
     img {
       width: 450px;
       height: 450px;
@@ -106,30 +107,118 @@
       font-family: "Agbalumo", sans-serif;
       font-weight: bold;
       font-size: 32px;
+      position: absolute;
+      top: 70%;
+      color: rgb(188, 132, 86);
+      color: linear-gradient(
+        90deg,
+        rgba(188, 132, 86, 1) 0%,
+        rgba(144, 113, 83, 1) 30%,
+        rgba(121, 67, 7, 1) 55%,
+        rgba(174, 105, 16, 1) 98%
+      );
     }
     p {
       font-family: "Agbalumo", sans-serif;
       font-size: 22px;
+      position: absolute;
+      top: 80%;
+      color: #42275a; 
+      color: -webkit-linear-gradient(
+        to right,
+        #734b6d,
+        #42275a
+      ); 
+      color: linear-gradient(
+        to right,
+        #734b6d,
+        #42275a
+      );
     }
   }
   .donutCardVanilla {
     display: flex;
     flex-direction: column;
-    gap: 20px;
     align-items: center;
+    position: relative;
+
     img {
       width: 400px;
       height: 400px;
+    }
+    h2 {
+      font-family: "Agbalumo", sans-serif;
+      font-weight: bold;
+      font-size: 32px;
+      position: absolute;
+      top: 70%;
+      color: rgb(243, 216, 195);
+      color: linear-gradient(
+        90deg,
+        rgba(243, 216, 195, 1) 0%,
+        rgba(204, 188, 173, 1) 30%,
+        rgba(248, 167, 78, 1) 55%,
+        rgba(221, 170, 105, 1) 98%
+      );
+    }
+    p {
+      font-family: "Agbalumo", sans-serif;
+      font-size: 22px;
+      position: absolute;
+      top: 80%;
+      color: #42275a; 
+      color: -webkit-linear-gradient(
+        to right,
+        #734b6d,
+        #42275a
+      ); 
+      color: linear-gradient(
+        to right,
+        #734b6d,
+        #42275a
+      );
     }
   }
   .donutCardSweet {
     display: flex;
     flex-direction: column;
-    gap: 20px;
     align-items: center;
+    position: relative;
+
     img {
       width: 400px;
       height: 400px;
+    }
+    h2 {
+      font-family: "Agbalumo", sans-serif;
+      font-weight: bold;
+      font-size: 32px;
+      position: absolute;
+      top: 70%;
+      color: rgb(227, 8, 104);
+      color: linear-gradient(
+        90deg,
+        rgba(227, 8, 104, 1) 0%,
+        rgba(99, 12, 126, 1) 37%,
+        rgba(11, 94, 192, 1) 94%
+      );
+    }
+    p {
+      font-family: "Agbalumo", sans-serif;
+      font-size: 22px;
+      position: absolute;
+      top: 80%;
+      color: #42275a; 
+      color: -webkit-linear-gradient(
+        to right,
+        #734b6d,
+        #42275a
+      ); 
+      color: linear-gradient(
+        to right,
+        #734b6d,
+        #42275a
+      );
     }
   }
 }

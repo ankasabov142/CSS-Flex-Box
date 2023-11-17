@@ -78,6 +78,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 #section-2 .donutCardChoco img {
   width: 450px;
@@ -87,30 +88,75 @@
   font-family: "Agbalumo", sans-serif;
   font-weight: bold;
   font-size: 32px;
+  position: absolute;
+  top: 70%;
+  color: rgb(188, 132, 86);
+  color: linear-gradient(90deg, rgb(188, 132, 86) 0%, rgb(144, 113, 83) 30%, rgb(121, 67, 7) 55%, rgb(174, 105, 16) 98%);
 }
 #section-2 .donutCardChoco p {
   font-family: "Agbalumo", sans-serif;
   font-size: 22px;
+  position: absolute;
+  top: 80%;
+  color: #42275a;
+  color: -webkit-linear-gradient(to right, #734b6d, #42275a);
+  color: linear-gradient(to right, #734b6d, #42275a);
 }
 #section-2 .donutCardVanilla {
   display: flex;
   flex-direction: column;
-  gap: 20px;
   align-items: center;
+  position: relative;
 }
 #section-2 .donutCardVanilla img {
   width: 400px;
   height: 400px;
 }
+#section-2 .donutCardVanilla h2 {
+  font-family: "Agbalumo", sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  position: absolute;
+  top: 70%;
+  color: rgb(243, 216, 195);
+  color: linear-gradient(90deg, rgb(243, 216, 195) 0%, rgb(204, 188, 173) 30%, rgb(248, 167, 78) 55%, rgb(221, 170, 105) 98%);
+}
+#section-2 .donutCardVanilla p {
+  font-family: "Agbalumo", sans-serif;
+  font-size: 22px;
+  position: absolute;
+  top: 80%;
+  color: #42275a;
+  color: -webkit-linear-gradient(to right, #734b6d, #42275a);
+  color: linear-gradient(to right, #734b6d, #42275a);
+}
 #section-2 .donutCardSweet {
   display: flex;
   flex-direction: column;
-  gap: 20px;
   align-items: center;
+  position: relative;
 }
 #section-2 .donutCardSweet img {
   width: 400px;
   height: 400px;
+}
+#section-2 .donutCardSweet h2 {
+  font-family: "Agbalumo", sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  position: absolute;
+  top: 70%;
+  color: rgb(227, 8, 104);
+  color: linear-gradient(90deg, rgb(227, 8, 104) 0%, rgb(99, 12, 126) 37%, rgb(11, 94, 192) 94%);
+}
+#section-2 .donutCardSweet p {
+  font-family: "Agbalumo", sans-serif;
+  font-size: 22px;
+  position: absolute;
+  top: 80%;
+  color: #42275a;
+  color: -webkit-linear-gradient(to right, #734b6d, #42275a);
+  color: linear-gradient(to right, #734b6d, #42275a);
 }
 
 #section-3 {
