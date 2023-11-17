@@ -185,13 +185,15 @@
 }
 #section-3 .storyParagraph {
   order: 1;
-  width: 500px;
+  width: 600px;
   position: absolute;
-  top: 20%;
+  top: 32%;
   left: 10%;
   text-align: center;
   font-size: 20px;
   font-family: "Agbalumo", sans-serif;
+  color: rgb(227, 8, 104);
+  color: linear-gradient(90deg, rgb(227, 8, 104) 0%, rgb(99, 12, 126) 37%, rgb(11, 94, 192) 94%);
 }
 #section-3 .storyPicture {
   order: 2;
