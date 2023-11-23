@@ -306,6 +306,8 @@ body {
     color: #464646;
     font-size: 30px;
     font-family: "Agbalumo", sans-serif;
+    text-decoration: none;
+    color: inherit;
   }
 }
 
@@ -359,4 +361,11 @@ body {
   left: 2%;
   width: 80px;
   height: 80px;
+}
+
+ul{
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
 }
